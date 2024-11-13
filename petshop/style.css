@@ -1,0 +1,65 @@
+/* Estilos globais para o layout */
+@import url(./css/header.css);
+@import url(./css/main.css);
+@import url(./css/footer.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Corpo da página */
+  body {
+    background-color: #fafafa;  /* Cor de fundo neutra */
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #ffcc00;  /* Cor amarela para destacar e dar energia */
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .header-container h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  /* Layout principal: Login, Serviços e FAQ lado a lado */
+  main {
+    padding-top: 0; /* Remove a margem superior, deixando encostado no header */
+  }
+  
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 3rem 1rem;
+    flex-wrap: wrap;
+  }
+  
+  /* Seção de Login */
+  .Login,
+  .services,
+  .faq {
+    background-color: #fff;  /* Fundo branco para as seções */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .Login {
+    flex: 1;
+    padding: 2rem;
+  }
+  
+  .services {
+    flex: 2;
+  }

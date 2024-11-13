@@ -1,0 +1,38 @@
+/* footer.css */
+
+/* Estilos para o footer */
+footer {
+    background-color: #263238; /* Fundo escuro */
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  footer .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  footer .social-media a,
+  footer .github a,
+  footer .email a,
+  footer .contact a {
+    color: #FF9800;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  footer .social-media a:hover,
+  footer .github a:hover,
+  footer .email a:hover,
+  footer .contact a:hover {
+    color: #FF5722; /* Cor de hover para links */
+    transition: 0.3s;
+  }
+  
+  footer .contact p {
+    font-size: 1rem;
+  }
+  

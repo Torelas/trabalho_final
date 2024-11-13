@@ -1,0 +1,181 @@
+/* Estilos globais para o layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Corpo da página */
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;  /* Cor mais sóbria para header */
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .header-container h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  /* Layout principal: Login, Serviços e FAQ lado a lado */
+  main {
+    padding-top: 0; /* Remove a margem superior, deixando encostado no header */
+  }
+  
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 3rem 1rem;
+    flex-wrap: wrap;
+  }
+  
+  /* Seção de Login */
+  .Login,
+  .services,
+  .faq {
+    background-color: #fff;  /* Fundo branco para as seções */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .Login {
+    flex: 1;
+    padding: 2rem;
+  }
+  
+  .services {
+    flex: 2;
+    padding: 3rem 1rem;
+  }
+  
+  .faq {
+    flex: 2;
+    padding: 3rem 1rem;
+  }
+  
+  /* Estilo das seções internas */
+  
+  h2 {
+    color: #333;  /* Cor para títulos */
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  h3 {
+    color: #8B0000;  /* Cor bordô para subtítulos */
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+  }
+  
+  /* Formulário de Login */
+  .form-group {
+    margin-bottom: 1.2rem;
+  }
+  
+  label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #666;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s;
+  }
+  
+  input:focus {
+    border-color: #8B0000;  /* Borda bordô no foco */
+  }
+  
+  button {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    background-color: #8B0000;  /* Cor bordô para o botão */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #A52A2A;  /* Bordô mais escuro no hover */
+  }
+  
+  /* Cards de Serviço */
+  .service-card {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card h3 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .service-card p {
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-card strong {
+    color: #8B0000;  /* Bordô para o preço */
+    font-size: 1.2rem;
+  }
+  
+  /* Estilo de FAQ */
+  .faq-item {
+    margin-bottom: 1.5rem;
+  }
+  
+  .faq-item h3 {
+    color: #8B0000;  /* Bordô para perguntas */
+  }
+  
+  .faq-item p {
+    color: #666;
+  }
+  
+  /* Responsividade para telas menores */
+  @media (max-width: 768px) {
+    .login-container {
+      padding: 1.5rem;
+    }
+  
+    button {
+      font-size: 1rem;
+    }
+  
+    /* Ajuste no layout principal para telas pequenas */
+    .main-container {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+  

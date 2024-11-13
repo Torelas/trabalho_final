@@ -1,0 +1,49 @@
+/* header.css */
+
+/* Estilos para o header */
+header {
+    background-color: #071d50; /* Azul escuro */
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    color: #FF9800; /* Cor laranja */
+  }
+  
+  header nav {
+    margin-top: 1rem;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  header nav a:hover {
+    color: #FF5722; /* Cor laranja-escuro para hover */
+    transition: 0.3s;
+  }
+  
+  /* Responsividade para o menu */
+  @media (max-width: 768px) {
+    header nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    header nav a {
+      margin: 0.5rem 0;
+    }
+  }
+  

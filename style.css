@@ -1,0 +1,21 @@
+@import url(./barbearia/css/header.css);
+@import url(./barbearia/css/main.css);
+@import url(./barbearia/css/footer.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    align-content: center;
+    
+}
+
+/* html {
+    font-size: 62.5%;
+} */
+

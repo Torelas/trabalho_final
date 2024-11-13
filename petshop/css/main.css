@@ -1,0 +1,117 @@
+/* main.css */
+
+/* Estilos para o layout principal */
+main {
+    padding-top: 0; /* Remove a margem superior, deixando encostado no header */
+  }
+  
+  /* Container principal para as seções Login, Serviços e FAQ */
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 3rem 1rem;
+    flex-wrap: wrap;
+  }
+  
+  /* Seção de Login */
+  .Login {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 30%;
+  }
+  
+  .Login h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .Login .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .Login input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .Login button {
+    background-color: #ffcc00;
+    color: #fff;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Login button:hover {
+    background-color: #8B0000; /* Cor bordô para o botão ao passar o mouse */
+  }
+  
+  /* Seção de Serviços */
+  .services {
+    flex: 2 1 45%;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .services h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .service-card {
+    margin-bottom: 1.5rem;
+  }
+  
+  .service-card h3 {
+    color: #333;
+    font-size: 1.3rem;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .service-card strong {
+    color: #ffcc00; /* Cor para os preços */
+  }
+  
+  /* Seção de FAQ */
+  .faq {
+    flex: 1 1 30%;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .faq-item h3 {
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 1rem;
+  }
+  
+  .faq-item p {
+    font-size: 1rem;
+    color: #666;
+  }
+  

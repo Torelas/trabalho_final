@@ -1,0 +1,63 @@
+/* footer.css */
+
+/* Estilo geral do footer */
+footer {
+    background-color: #333;  /* Cor de fundo escura */
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  /* Container do footer */
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Estilo para os links das redes sociais */
+  .social-media, .github, .email, .contact {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    font-size: 1.1rem;
+  }
+  
+  .social-link, .contact-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  /* Ícones das redes sociais */
+  .social-link img, .contact-link img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Efeito de hover nos links */
+  .social-link:hover, .contact-link:hover {
+    color: #8B0000;  /* Bordô para hover */
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .social-media, .github, .email, .contact {
+      margin-bottom: 1rem;
+    }
+  }
+  
